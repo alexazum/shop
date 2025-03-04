@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK Магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VK Магазин</h1>
+            <button id="cart-btn">🛒 В корзине: <span id="cart-count">0</span></button>
+        </header>
+        
+        <aside>
+            <input type="text" id="search" placeholder="Поиск...">
+            <ul id="categories">
+                <li class="active">Все</li>
+                <li>Футболки</li>
+                <li>Худи</li>
+                <li>Аксессуары</li>
+            </ul>
+        </aside>
+        
+        <main id="product-list"></main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
