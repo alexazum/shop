@@ -1,7 +1,7 @@
 const products = [
-    { id: 1, name: "Футболка VK Basic", price: 1790, category: "Футболки", image: "https://via.placeholder.com/200" },
-    { id: 2, name: "Худи VK Basic", price: 4200, category: "Худи", image: "https://via.placeholder.com/200" },
-    { id: 3, name: "Бейсболка VK", price: 3200, category: "Аксессуары", image: "https://via.placeholder.com/200" }
+    { id: 1, name: "Чизбургер", price: 250, category: "Бургеры", image: "https://via.placeholder.com/200" },
+    { id: 2, name: "Пицца Маргарита", price: 500, category: "Пицца", image: "https://via.placeholder.com/200" },
+    { id: 3, name: "Кока-Кола", price: 150, category: "Напитки", image: "https://via.placeholder.com/200" }
 ];
 
 let cart = [];
